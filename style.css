@@ -35,7 +35,7 @@ h3 {
 
 a {
     text-decoration: none;
-    color: #ff4656;
+    color: #00bfff;
 }
 
 .card {
@@ -70,7 +70,7 @@ a {
     position: absolute;
     inset: 0;
     width: 100%;
-    background: #ff4656d8;
+    background: #87ceeb;
     mix-blend-mode: multiply;
     transform: translateX(-120%) skewX(-10deg);
     transition: transform 0.3s ease-out;
@@ -130,7 +130,7 @@ a {
 }
 
 .card:hover span {
-    color: #ff4656
+    color: #00bfff
 }
 
 .card::before {
@@ -139,7 +139,7 @@ a {
     display: block;
     height: 5px;
     width: 100%;
-    background: linear-gradient(to right, #ff4656 50%, rgb(56, 62, 58) 50%);
+    background: linear-gradient(to right, #87ceeb 50%, rgb(56, 62, 58) 50%);
     background-size: 200%;
     background-position: 100%;
     background-repeat: no-repeat;
